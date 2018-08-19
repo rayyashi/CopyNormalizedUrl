@@ -1,0 +1,17 @@
+{
+  "name": "Copy and Normalize Url",
+  "version": "1.0",
+  "description": "Copy and Normalize Url",
+  "permissions": ["activeTab", "declarativeContent", "storage", "contextMenus","clipboardWrite"],
+  "background": {
+    "scripts": ["copyAndNormalizeUrl.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/copy16.png",
+    "32": "images/copy32.png",
+    "48": "images/copy48.png",
+    "128": "images/copy128.png"
+  },
+  "manifest_version": 2
+}
